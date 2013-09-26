@@ -1,5 +1,6 @@
 function filterFiles(dir, ext, callback) {
 	var fs = require('fs');
+	ext = '.' + ext;
 
 	fs.readdir(dir, function (err, files) {
 		var fileList = [];

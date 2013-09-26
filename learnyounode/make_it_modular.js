@@ -1,6 +1,6 @@
-var ffm = require('./lyn_mim_module.js');
+var ffm = require('./mim_module.js');
 var dir = process.argv[2];
-var ext = '.' + process.argv[3];
+var ext = process.argv[3];
 
 function callback(err, data) {
 	if (err) throw err;
